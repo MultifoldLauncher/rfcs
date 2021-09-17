@@ -163,7 +163,7 @@ GDLauncher). Creating a custom format will require a migration tool for the best
 
 There is no good alternatives to creating a custom format, due to the nature of how MultiFold is designed.
 
-## Prior Art
+## Inspiration
 
 The specification is inspired by MultiMC's `mmc-pack.json` format.
 
