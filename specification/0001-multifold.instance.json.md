@@ -6,9 +6,8 @@ This document acts as a Request for Comments (RPC) on the topic of how a MultiFo
 
 ## Motivation
 
-This RFC describes a scalable, portable, and more powerful format for the instance that defines what an instance's
-definition should look like. MultiFold offers users the ability install mod loaders and mods seamlessly, without manual
-configuration.
+This RFC describes a scalable, portable, and more powerful format that defines an instance. MultiFold offers users the
+ability install mod loaders and mods seamlessly, without manual configuration.
 
 ## Explanation
 
@@ -96,7 +95,8 @@ upon initialization.
 <summary>id: <code>string</code></summary>
 
 The id of the mod **from the provider**. This is not to be confused with the mod id defined in mcmod.info or
-fabric.mod.json.
+fabric.mod.json. An example of this is the `mod_id` returned
+from [Modrinth's API](https://github.com/modrinth/labrinth/wiki/API-Documentation).
 </details>
 
 <details> 
