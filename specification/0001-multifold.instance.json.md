@@ -12,7 +12,7 @@ ability install mod loaders and mods seamlessly, without manual configuration.
 ## Explanation
 
 The following is the schema for instance metadata. The primary format is JSON, however it can be represented in other
-formats such as YAML.
+formats, such as YAML.
 
 <details>
 <summary>apiVersion: <code>string</code></summary>
@@ -161,7 +161,7 @@ GDLauncher). Creating a custom format will require a migration tool for the best
 
 ## Rationale and Alternatives
 
-There is no good alternatives to creating a custom format, due to the nature of how MultiFold is designed.
+There are no good alternatives to creating a custom format, due to the nature of how MultiFold is designed.
 
 ## Inspiration
 
