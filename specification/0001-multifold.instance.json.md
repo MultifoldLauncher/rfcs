@@ -15,9 +15,9 @@ The following is the schema for instance metadata. The primary format is JSON, h
 formats, such as YAML.
 
 <details>
-<summary>apiVersion: <code>string</code></summary>
+<summary>version: <code>number</code></summary>
 
-Represents the API version being used. Current supported API versions: `v1alpha1`.
+Represents the API version being used. Current supported API version: `1`.
 </details>
 
 <details> 
